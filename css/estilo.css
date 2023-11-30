@@ -38,6 +38,11 @@
   margin: 1px;
 }
 
+@media (min-width: 500px) and (max-width: 1000px) {
+  .textoPrincipalIndex {
+    font-size: 2.5rem;
+  }
+}
 .btnTienda {
   background-color: white;
   color: black;
