@@ -38,7 +38,7 @@
   margin: 1px;
 }
 
-@media (min-width: 500px) and (max-width: 1000px) {
+@media (min-width: 1000px) {
   .textoPrincipalIndex {
     font-size: 2.5rem;
   }
@@ -146,7 +146,7 @@
   opacity: 0;
   transition: opacity 0.3s;
   color: black;
-  /* Puedes cambiar el color del texto según tus necesidades */
+  
 }
 
 .contenedorImgProyecto:hover .overlay {
