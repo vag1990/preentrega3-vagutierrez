@@ -10,6 +10,7 @@
 
 .btnTienda {
     @include btnTienda;
+
     &:hover {
         background-color: bisque;
     }
@@ -18,6 +19,7 @@
 
 @mixin imgLogoPrincipal {
     width: 55%;
+    height: 55%;
     position: relative;
     top: 55px;
     left: -25px;
@@ -26,7 +28,9 @@
 
 .imgLogo {
     @include imgLogoPrincipal;
+
     &:hover {
         background-color: bisque;
+        transition: all 1s;
     }
 }

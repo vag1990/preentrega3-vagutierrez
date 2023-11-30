@@ -3,10 +3,31 @@
 
 .imgRedes {
     width: 40px;
+    animation-name: textoPrincipalIndex;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+@keyframes textoPrincipalIndex {
+    0% {
+        width: 10%;
+    }
+    25% {
+        width: 12%;
+    }
+    50% {
+        width: 14%;
+    }
+    75% {
+        width: 16%;
+    }
+    100% {
+        width: 18%;
+    }
 }
 
 .imgLogoFooter {
     width: 20%;
+    
 }
 
 .navegadorCrudo {
@@ -20,8 +41,11 @@
 @media (min-width: 992px) {
     .navegadorCrudo:hover {
         background-color: bisque;
+        font-size: 1.5rem;
+        transition: all 2s;
     }
 }
+
 
 .textoPrincipalIndex {
     font-size: 3.5rem;
@@ -29,22 +53,37 @@
     text-transform: uppercase;
     font-family: 'Rubik', sans-serif;
     margin: 1px;
+    
 }
+
+
 
 @media (min-width: 500px) and (max-width: 1000px) {
     .textoPrincipalIndex {
         font-size: 2.5rem;
     }
 }
+.btnTienda {
+    border: 3px black solid;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+   background-image: linear-gradient(to right, bisque, cadetblue);
 
+}
 
 
 .carouselIndex {
-    height: auto;
+    height: 1500px;
+}
+@media (min-width: 500px) and (max-width: 1000px) {
+    .carouselIndex {
+        height: 400px;
+}
 }
 
 .contenedorIndexUno {
-    background-color: rgb(161, 156, 156);
+    background-color: rgb(131, 154, 155);
 }
 
 .btnsIndex {
@@ -151,3 +190,27 @@
 .btnForm {
     background-color: orangered;
 }
+
+.contactoForm {
+    width: 40%;
+}
+.mapa {
+    width: 60%;
+}
+
+@media (min-width: 500px) and (max-width: 1000px) {
+    .contactoForm {
+        width: 90%;
+        align-self: center;
+    }
+}
+@media (min-width: 500px) and (max-width: 1000px) {
+    .mapa {
+        width: 90%;
+        align-self: center;
+    }
+}
+
+
+        
+        
