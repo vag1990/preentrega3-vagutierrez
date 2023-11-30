@@ -1,0 +1,161 @@
+@charset "UTF-8";
+/*index.html*/
+.imgLogo {
+  width: 55%;
+  position: relative;
+  top: 55px;
+  left: -30px;
+}
+.imgLogo:hover {
+  background-color: bisque;
+}
+
+.imgRedes {
+  width: 40px;
+}
+
+.imgLogoFooter {
+  width: 20%;
+}
+
+.navegadorCrudo {
+  font-size: 1rem;
+}
+.navegadorCrudo:hover {
+  text-transform: uppercase;
+}
+
+@media (min-width: 992px) {
+  .navegadorCrudo:hover {
+    background-color: bisque;
+  }
+}
+.textoPrincipalIndex {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  margin: 1px;
+}
+
+.btnTienda {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  border: black solid 3px;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 20px;
+}
+.btnTienda:hover {
+  background-color: bisque;
+}
+
+.carouselIndex {
+  height: auto;
+}
+
+.contenedorIndexUno {
+  background-color: rgb(161, 156, 156);
+}
+
+.btnsIndex {
+  border: black 2px solid;
+  padding: 5px;
+  border-radius: 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.imgIndexBlends {
+  width: 600px;
+  height: auto;
+}
+
+/*blends.html*/
+.grillaBlend {
+  background-color: white;
+}
+
+@media (max-width: 800px) {
+  .grillaBlend {
+    margin-top: 100px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 800px) and (min-width: 768px) {
+  .grillaBlend {
+    margin-top: 1px;
+  }
+}
+.textoBlends {
+  margin-top: 60px;
+  font-size: 0.8rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.textoBlendy {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.imgMuestra {
+  width: 200px;
+  height: 200px;
+}
+
+.parrafoMuestra {
+  font-size: 1rem;
+  color: black;
+  font-weight: bold;
+}
+
+/*proyectos.html*/
+.contenedorImgProyecto {
+  position: relative;
+  overflow: hidden;
+}
+
+.imgProyectos {
+  width: 100%;
+  height: auto;
+  transition: filter 0.3s;
+}
+
+.contenedorImgProyecto:hover .imgProyectos {
+  filter: grayscale(100%);
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  opacity: 0;
+  transition: opacity 0.3s;
+  color: black;
+  /* Puedes cambiar el color del texto según tus necesidades */
+}
+
+.contenedorImgProyecto:hover .overlay {
+  opacity: 1;
+}
+
+.textoProyecto, .textoNosotros {
+  font-family: "Roboto", sans-serif;
+}
+
+/*nosotros html*/
+/*contacto html*/
+.btnForm {
+  background-color: orangered;
+}
+
+/*# sourceMappingURL=estilo.css.map */
